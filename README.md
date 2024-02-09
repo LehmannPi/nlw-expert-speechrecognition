@@ -15,6 +15,13 @@ npm run dev
 
 Acesse http://localhost:5173 para visualizar a aplicação.
 
+## Libs
+
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
+- [Sonner](https://sonner.emilkowal.ski/)
+
 ## Estrutura do Projeto
 
 ``` bash
@@ -23,10 +30,3 @@ Acesse http://localhost:5173 para visualizar a aplicação.
     ├───assets
     └───components
 ```
-
-## Libs
-
-- [React](https://reactjs.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
-- [Sonner](https://sonner.emilkowal.ski/)
