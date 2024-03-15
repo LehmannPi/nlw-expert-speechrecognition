@@ -59,13 +59,12 @@ export function App() {
       : notes;
 
   return (
-    <div className="mx-auto max-w-6xl my-12 space-y-6 px-5 md:px-0">
+    <div className="max-w-6xl px-5 mx-auto my-12 space-y-6 md:px-0">
       {' '}
-      // ! Tailwind Mobile First
       <img src={logo} alt="NWL Expert" />
       <form className="w-full">
         <input
-          className="w-full bg-transparent text-3xl font-semibold tracking-tight placeholder:text-slate-500"
+          className="w-full text-3xl font-semibold tracking-tight bg-transparent placeholder:text-slate-500"
           type="text"
           placeholder="Busque em suas notas"
           onChange={handleSearch}
